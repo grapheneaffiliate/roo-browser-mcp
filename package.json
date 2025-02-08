@@ -1,0 +1,21 @@
+{
+  "name": "browser-server",
+  "version": "1.0.0",
+  "description": "MCP server for browser automation",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.1.0",
+    "axios": "^1.6.7",
+    "puppeteer": "^21.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "@types/puppeteer": "^7.0.4",
+    "typescript": "^5.3.3"
+  }
+}
