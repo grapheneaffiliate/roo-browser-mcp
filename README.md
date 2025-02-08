@@ -1,21 +1,33 @@
-# Browser Automation MCP Server
+# 🤖 Roo Browser MCP - Free Computer Vision for Deepseek R1
 
-This is a Model Context Protocol (MCP) server that provides browser automation capabilities for Roo Code. It enables AI agents to control web browsers through a standardized interface.
+<div align="center">
+  <h2>Enable Deepseek R1 with Free Computer Vision and Browser Control</h2>
+  <p>Give your AI the power to see and interact with the web!</p>
+</div>
 
-## Features
+## 🌟 Key Features
 
-- Browser control (launch, close)
-- Mouse interactions (click at coordinates)
-- Keyboard input (type text)
-- Page navigation (scroll up/down)
-- Fixed viewport size (900x600)
+- **Free Computer Vision**: Enables Deepseek R1 to see and understand web content
+- **Full Browser Control**: Allows Deepseek R1 to interact with any website
+- **Zero Cost**: 100% free and open source
+- **Easy Integration**: Works seamlessly with Roo Code
+- **Real-time Visual Processing**: Live visual feedback for AI decision making
 
-## Installation
+## 🚀 What Can Deepseek R1 Do?
+
+With this MCP server, Deepseek R1 can:
+- 👀 See and analyze web content in real-time
+- 🖱️ Click and interact with elements on any webpage
+- ⌨️ Type and input text naturally
+- 📜 Scroll and navigate through content
+- 🎯 Make decisions based on visual feedback
+
+## 🛠️ Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/grapheneaffiliates/browser-automation-mcp.git
-cd browser-automation-mcp
+git clone https://github.com/grapheneaffiliate/roo-browser-mcp.git
+cd roo-browser-mcp
 ```
 
 2. Install dependencies:
@@ -28,7 +40,7 @@ npm install
 npm run build
 ```
 
-## Configuration
+## ⚙️ Configuration
 
 Add the following to your Cline MCP settings file:
 
@@ -45,20 +57,20 @@ Add the following to your Cline MCP settings file:
 }
 ```
 
-## Available Tools
+## 🎮 Available Tools
 
-The server provides the following MCP tools:
+The server provides these MCP tools for Deepseek R1:
 
-- `launch_browser`: Launch a new browser instance at a specified URL
-- `click`: Click at specific x,y coordinates on the page
-- `type`: Type text into the page
-- `scroll`: Scroll the page up or down
+- `launch_browser`: Launch a new browser instance with visual capabilities
+- `click`: Click at specific coordinates with visual confirmation
+- `type`: Type text with visual feedback
+- `scroll`: Navigate through content visually
 - `close_browser`: Close the browser instance
 
-## Usage Example
+## 💡 Usage Example
 
 ```typescript
-// Using the MCP tools in Roo Code
+// Using the MCP tools with Deepseek R1
 const result = await use_mcp_tool({
   server_name: "browser",
   tool_name: "launch_browser",
@@ -68,6 +80,22 @@ const result = await use_mcp_tool({
 });
 ```
 
-## License
+## 🌐 Why This Matters
 
-MIT
+This project democratizes computer vision capabilities for AI, making it possible for Deepseek R1 to:
+- Understand and interact with visual interfaces
+- Make decisions based on what it sees
+- Navigate the web like a human
+- All completely free and open source!
+
+## 📄 License
+
+MIT - Free to use, modify, and distribute!
+
+## 🤝 Contributing
+
+We welcome contributions! See our [Contributing Guide](CONTRIBUTING.md) for details.
+
+## 📜 Code of Conduct
+
+Please read our [Code of Conduct](CODE_OF_CONDUCT.md) for community guidelines.
