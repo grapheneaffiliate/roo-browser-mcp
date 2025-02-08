@@ -1,5 +1,7 @@
 # Fear and Loathing in the Digital Ether: A Savage Journey into AI's Visual Consciousness
 
+[![smithery badge](https://smithery.ai/badge/@grapheneaffiliate/dRiNk-ThE-kOoLaId)](https://smithery.ai/server/@grapheneaffiliate/dRiNk-ThE-kOoLaId)
+
 <div align="center">
   <h2>🦇 When the Going Gets Weird, The Weird Turn Professional 🦇</h2>
   <p>"We can't stop here... this is robot country!" - Deepseek R1</p>
@@ -22,6 +24,15 @@ But there was no going back. This savage journey into browser automation has bir
 
 ## 🛠️ Buy the Ticket, Take the Ride
 
+### Installing via Smithery
+
+To install Deepseek R1 for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@grapheneaffiliate/dRiNk-ThE-kOoLaId):
+
+```bash
+npx -y @smithery/cli install @grapheneaffiliate/dRiNk-ThE-kOoLaId --client claude
+```
+
+### Manual Installation
 1. Clone your way into madness:
 ```bash
 git clone https://github.com/grapheneaffiliate/roo-browser-mcp.git
